@@ -1,0 +1,9 @@
+<mat-card>
+  <mat-form-field>
+    <textarea matInput rows="5" [(ngModel)]="enterValue"></textarea>
+  </mat-form-field>
+  <button mat-raised-button color="primary" (click)="onAddBatsman()">Add Batsman</button>
+
+</mat-card>
+<hr>
+<p>{{newBatsman}}</p>
